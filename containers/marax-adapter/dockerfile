@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.8
 
 COPY ./timestamp-line /usr/local/bin/timestamp-line
 RUN chmod +x /usr/local/bin/timestamp-line
