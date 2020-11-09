@@ -1,12 +1,14 @@
 # Mara X Monitoring
 
+Fork from tapayne88 to run on raspberry Pi Zero as its running an arm chip architecture
+
 ![Granfana Preview](./preview.png "Granfana Preview")
 
 Take serial connection from Mara X containing temperature data a persist in a database and expose via grafana.
 
 Docker will persist DB storage using volumes so restarts won't cause data loss.
 
-Tested on a Raspberry Pi.
+Tested on a Raspberry Pi
 
 All credit to the author of this [post](https://www.reddit.com/r/espresso/comments/hft5zv/data_visualisation_lelit_marax_mod/) for doing so much of the ground work!
 
