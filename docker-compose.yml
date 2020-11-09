@@ -24,7 +24,7 @@ services:
       - influxdb-storage:/var/lib/influxdb
       - ./config/influxdb:/docker-entrypoint-initdb.d
   grafana:
-    image: fg2it/grafana-armhf
+    image: proxx/grafana-armv7
     ports:
       - 3000:3000
     depends_on:
